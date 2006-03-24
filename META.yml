@@ -1,0 +1,18 @@
+
+no_index: 
+  directory: 
+    - inc
+    - t
+generated_by: Module::Install version 0.62
+distribution_type: module
+version: 0.01
+name: Lingua-EN-VarCon
+author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
+license: perl
+build_requires: 
+  Test::More: 0.47
+  File::Spec: 0.80
+requires: 
+  perl: 5.005
+  File::ShareDir: 0.03
+abstract: Provides access to the VarCon (Variant Conversion Info)
