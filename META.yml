@@ -5,12 +5,13 @@ no_index:
     - t
 generated_by: Module::Install version 0.62
 distribution_type: module
-version: 0.01
+version: 0.02
 name: Lingua-EN-VarCon
 author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
 license: perl
 build_requires: 
   Test::More: 0.47
+  ExtUtils::MakeMaker: 6.11
   File::Spec: 0.80
 requires: 
   perl: 5.005
